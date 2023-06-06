@@ -1,5 +1,19 @@
+import Button from "./components/Button/Button";
+import Card from "./components/Card/Card";
+
 const App = () => {
-	return <h1>Núcleo de la aplicación</h1>;
+
+	return (
+		<>
+		
+			<Card />
+		
+		</>
+
+	)
+	
+	
+	
 };
 
 export default App;

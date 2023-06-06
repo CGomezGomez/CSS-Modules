@@ -1,0 +1,116 @@
+.container {
+
+    width: 920px;
+    height: 500px;
+    display: flex;
+
+}
+
+@media (max-width: 600px ){
+
+    .container {
+        flex-direction: column;
+    }
+
+}
+
+.card {
+
+    width: 307px;
+    height: 500px;
+    padding: 40px;
+    
+}
+
+.orange {
+
+    background-color: rgb(233, 154, 70)
+
+}
+
+.blue {
+
+    background-color: rgba(0, 105, 113, 1)
+
+}
+
+.green{
+
+    background-color: rgba(0, 65, 64, 1);
+
+}
+
+.cardh2{
+
+    color: white;
+    font-family: 'Big Shoulders Display' ;
+    font-size: 3rem;  
+
+}
+
+.cardp{
+
+    color: white;
+    text-align: left;
+    font-family: 'Lexend Deca' , sans-serif;
+    font-size: 1.05rem;
+    line-height: 25px;
+    padding-bottom: 5rem;
+
+}
+
+.button {
+
+    background-color: white;
+    font-family: 'Lexend Deca' , sans-serif;
+    font-size: 1rem;
+    padding: .9375rem 2.1875rem;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    letter-spacing: 0.1rem;
+
+}
+
+.buttonorange {
+
+    color: rgb(233, 154, 70);
+    font-weight: 600;
+
+}
+
+.buttonorange:hover {
+
+    background-color: rgb(233, 154, 70);
+    color: white;
+    border-color:white;
+
+
+}
+
+.buttonblue {
+
+    color: rgba(0, 105, 113, 1);
+    font-weight: 600;
+
+}
+.buttonblue:hover {
+
+    background-color: rgba(0, 105, 113, 1);
+    color: white;
+    border-color:white;
+
+}
+
+.buttongreen{
+
+    color: rgba(0, 65, 64, 1);
+    font-weight: 600;
+
+}
+.buttongreen:hover {
+
+    background-color:  rgba(0, 65, 64, 1);
+    color: white;
+    border-color:white;
+
+}
