@@ -1,3 +1,19 @@
 body {
 	font-family: sans-serif;
 }
+
+.container {
+
+    width: 920px;
+    height: 500px;
+    display: flex;
+
+}
+
+@media (max-width: 600px ){
+
+    .container {
+        flex-direction: column;
+    }
+
+}
