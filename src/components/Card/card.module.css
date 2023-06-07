@@ -3,12 +3,14 @@
     width: 307px;
     height: 500px;
     padding: 40px;
-    
+   
 }
 
 .orange {
 
-    background-color: rgb(233, 154, 70)
+    background-color: rgb(233, 154, 70);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 
 }
 
@@ -21,6 +23,8 @@
 .green{
 
     background-color: rgba(0, 65, 64, 1);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 
 }
 
